@@ -1,0 +1,28 @@
+div{
+    background-color: black;
+    height: 60px;
+    color:white;
+
+}
+
+#header_amazon{
+    color:red;
+}
+
+#header_account{
+
+}
+#header_cart{
+
+}
+
+#header_contact{
+
+}
+#header_search_text{
+    display:inline;
+}
+#header_search_button{
+    display:inline;
+    background-color: yellow;
+}

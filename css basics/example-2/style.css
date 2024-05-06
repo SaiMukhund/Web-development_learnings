@@ -1,0 +1,23 @@
+#black{
+    height:600px;
+    width: 200px;
+    padding:25px;
+    background-color: black;
+
+}
+
+.round{
+    height:150px;
+    width:150px;
+    margin:25px;
+    border-radius: 50%;
+}
+#red{
+    background-color: red;
+}
+#orange{
+    background-color: orange;
+}
+#green{
+    background-color: green;
+}
