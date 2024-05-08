@@ -62,3 +62,20 @@ b=12;
 console.log(a==b); // doesnt check the type of variabless 
 
 console.log(a===b); // checks the type and value 
+
+// logical operators 
+a=4;
+b=2;
+console.log((a-b)>2 && a+b<10);
+console.log((a-b)>2 || a+b<10);
+
+
+//
+let num=prompt("Enter a number");
+console.log(typeof num);
+if(num%5===0){
+    alert("number "+num+" is divisible by 5");
+}
+else{
+    alert("nummber "+num+" not divisible by 5");
+}
