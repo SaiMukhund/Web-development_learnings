@@ -1,4 +1,4 @@
-/*
+
 // for loop syntax 
 
 for (let i=0;i<=5;i++){
@@ -59,7 +59,7 @@ do{
     user_guess=prompt("guess the correct number");
 }while(user_guess!=correct_number);
 
-*/
+
 
 
 // strings 
