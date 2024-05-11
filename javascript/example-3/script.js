@@ -1,4 +1,4 @@
-
+/*
 // for loop syntax 
 
 for (let i=0;i<=5;i++){
@@ -83,3 +83,44 @@ let fullName=prompt("enter full name");
 fullName=fullName.toLowerCase().replaceAll(" ","");
 let user_id="@"+fullName+fullName.length;
 console.log(`the user id with the name ${fullName} is ${user_id}`);
+*/
+
+// arrays 
+let names=["arha","sai","venkat","koushik"];
+console.log(names)
+
+for (let name of names){
+    console.log(name.toUpperCase());
+}
+
+
+// find average marks 
+let marks =[97,85,76,42,52];
+let sum=0;
+for (let mark in marks){
+    sum+=mark;
+}
+console.log(`avg marks for the marks : ${marks} = ${sum/marks.length}`);
+
+marks.push(98);
+console.log(marks);
+marks.pop();
+let a=marks.toString();
+console.log(a.slice(1,5));
+
+let marks2=[1,2,3,4];
+marks=marks.concat(marks2);
+console.log("concat",marks);    
+
+marks.splice(1,1,"hi","hello");
+console.log(marks);
+
+//
+let company =["bloomberg","microsoft","uber","google","ibm","netflix"];
+console.log(company);
+company.shift();
+console.log("remove  first element",company)
+company.splice(1,1,"ola")
+console.log("replace uber",company);
+company.push("amazon");
+console.log(company);
