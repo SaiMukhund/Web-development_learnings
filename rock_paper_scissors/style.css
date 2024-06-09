@@ -15,14 +15,17 @@ img{
     width:150px;
     object-fit: cover;
     border-radius: 50%;
-
-
+}
+.selector{
+    width: 150px;
+    height: 150px;
 }
 .images{
     display: flex;
     flex-direction: row;
     padding: 10px;
     justify-content: center;
+    border-radius: 50%;
 
 }
 
@@ -49,6 +52,6 @@ img{
 }
 
 .hovered{
-    border-style:solid;
-    border-width:3px;
+    border: 5px solid black;
+    border-radius: 50%;
 }
