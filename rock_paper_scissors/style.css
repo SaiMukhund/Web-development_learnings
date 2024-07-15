@@ -3,7 +3,6 @@
 }
 h1{
     padding:10px;
-    text-align: center;
     background-color: black;
     color:cornsilk;
 }
@@ -54,4 +53,14 @@ img{
 .hovered{
     border: 5px solid black;
     border-radius: 50%;
+}
+
+.lost{
+    background-color: red;
+    color:black;
+}
+
+.won{
+    background-color: rgb(40, 200, 4);
+    color:white;
 }
