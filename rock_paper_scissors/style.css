@@ -53,6 +53,8 @@ img{
 .hovered{
     border: 5px solid black;
     border-radius: 50%;
+    opacity: 70%;
+    cursor: pointer;
 }
 
 .lost{

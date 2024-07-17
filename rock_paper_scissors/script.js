@@ -27,6 +27,8 @@ rock.addEventListener("click",()=>{
     let num=getRandomNumber();
     if (num===0){
         resultText.innerHTML="Draw, play again !!";
+        resultText.classList.remove("won");
+        resultText.classList.remove("lost");
     }
     else if(num===1){
         comp_score+=1;
@@ -54,6 +56,8 @@ paper.addEventListener("click",()=>{
     let num=getRandomNumber();
     if (num===1){
         resultText.innerHTML="Draw, play again !!";
+        resultText.classList.remove("won");
+        resultText.classList.remove("lost");
     }
     else if(num===2){
         comp_score+=1;
@@ -81,6 +85,8 @@ scissor.addEventListener("click",()=>{
     let num=getRandomNumber();
     if (num===2){
         resultText.innerHTML="Draw, play again !!";
+        resultText.classList.remove("won");
+        resultText.classList.remove("lost");
     }
     else if(num===0){
         comp_score+=1;
